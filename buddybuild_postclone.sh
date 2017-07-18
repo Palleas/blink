@@ -9,3 +9,5 @@ CONFIG_PATH="Frameworks/UICKeyChainStore/Lib/Configurations/UICKeyChainStore.xcc
 echo "" >> $CONFIG_PATH
 echo "// In case you're reading this, what the hell are you doing here?" >> $CONFIG_PATH
 echo "VALID_ARCHS = i386 x86_64 armv7 arm64 armv7s" >> $CONFIG_PATH
+
+cat $CONFIG_PATH
